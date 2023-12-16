@@ -1,0 +1,155 @@
+/* Dashboard container */
+.dashboard-container {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header */
+.header {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logout button */
+.logout-button {
+  background-color: #FF4500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #FF6347;
+}
+
+/* Content */
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Job Form */
+.job-form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* Form title */
+.job-form h2 {
+  color: #007BFF;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form fields and labels */
+.form-group {
+  margin: 15px 0;
+}
+
+/* File upload label */
+.upload-label {
+  font-weight: bold;
+  cursor: pointer;
+  color: #007BFF;
+}
+
+/* File upload input */
+.file-upload {
+  display: none;
+}
+
+/* Resume section */
+.resume-upload {
+  margin: 15px 0;
+}
+
+/* Submit button */
+.submit-button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Job List */
+.job-list {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  min-height: 200px;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Job Block */
+.job-block {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+/* Job details */
+.job-block p {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Resume download link */
+.job-block p a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Resume download link on hover */
+.job-block p a:hover {
+  text-decoration: underline;
+}
+
+
+
+.custom-file-upload {
+  display: inline-block;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-file-upload:hover {
+  background-color: #0056b3;
+}
