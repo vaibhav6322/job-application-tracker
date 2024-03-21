@@ -1,4 +1,4 @@
-To intsall all the required dependecies
+To install all the required dependecies
 npm install
 Start the project
 npm start
